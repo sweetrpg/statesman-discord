@@ -35,13 +35,13 @@ certifi==2026.7.22
     #   sentry-sdk
 cffi==2.1.1
     # via pynacl
-charset-normalizer==3.5.1
+charset-normalizer==3.5.2
     # via requests
 click==8.5.0
     # via flask
 colorama==0.4.6
     # via tox
-coverage[toml]==7.16.1
+coverage[toml]==7.16.2
     # via
     #   coverage-badge
     #   pytest-cov
@@ -55,7 +55,7 @@ distlib==0.4.3
     # via virtualenv
 durationpy==0.11
     # via kubernetes
-filelock==4.0.4
+filelock==4.0.10
     # via
     #   python-discovery
     #   tox
@@ -109,20 +109,20 @@ kubernetes==36.0.3
     # via -r requirements/app.in
 limits[redis]==5.8.0
     # via flask-limiter
-markupsafe==3.0.3
+markupsafe==3.0.4
     # via
     #   flask
     #   jinja2
     #   sentry-sdk
     #   werkzeug
     #   wtforms
-msgspec==0.21.1
+msgspec==0.22.0
     # via flask-session
 multidict==6.9.1
     # via
     #   aiohttp
     #   yarl
-oauthlib==3.3.1
+oauthlib==4.0.0
     # via requests-oauthlib
 ordered-set==4.1.0
     # via flask-limiter
@@ -132,9 +132,10 @@ packaging==26.3
     #   pyproject-api
     #   pytest
     #   tox
+    #   virtualenv
 pika==1.4.4
     # via -r requirements/app.in
-platformdirs==4.12.0
+platformdirs==4.12.3
     # via
     #   tox
     #   virtualenv
@@ -153,7 +154,7 @@ pygments==2.21.0
     # via pytest
 pynacl==1.6.2
     # via -r requirements/app.in
-pyproject-api==1.11.2
+pyproject-api==1.11.3
     # via tox
 pytest==9.1.1
     # via
@@ -167,7 +168,7 @@ python-discovery==1.6.1
     # via
     #   tox
     #   virtualenv
-python-dotenv==1.2.3
+python-dotenv==1.2.4
     # via -r requirements/app.in
 pyyaml==6.0.3
     # via
@@ -193,7 +194,7 @@ rpds-py==2026.6.3
     # via
     #   jsonschema
     #   referencing
-sentry-sdk[flask]==2.70.0
+sentry-sdk[flask]==2.71.0
     # via -r requirements/app.in
 six==1.17.0
     # via
@@ -201,7 +202,7 @@ six==1.17.0
     #   python-dateutil
 tomli-w==1.2.0
     # via tox
-tox==4.64.3
+tox==4.64.8
     # via -r requirements/tests.in
 typing-extensions==4.16.0
     # via
@@ -218,11 +219,11 @@ urllib3==2.8.0
     #   sentry-sdk
 uwsgi==2.0.31
     # via -r requirements/app.in
-virtualenv==21.13.0
+virtualenv==21.14.5
     # via tox
 websocket-client==1.9.2
     # via kubernetes
-werkzeug==3.1.8
+werkzeug==3.1.9
     # via flask
 wrapt==2.5.0
     # via deprecated
