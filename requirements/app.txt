@@ -119,9 +119,9 @@ propcache==0.5.4
     #   yarl
 pycparser==3.11
     # via cffi
-pydantic==2.14.0
+pydantic==2.14.1
     # via kubernetes
-pydantic-core==2.50.0
+pydantic-core==2.50.1
     # via pydantic
 pynacl==1.6.2
     # via -r requirements/app.in
@@ -153,7 +153,7 @@ rpds-py==2026.9.1
     # via
     #   jsonschema
     #   referencing
-sentry-sdk[flask]==2.71.0
+sentry-sdk[flask]==2.72.0
     # via -r requirements/app.in
 six==1.17.0
     # via python-dateutil
@@ -181,7 +181,7 @@ websocket-client==1.9.2
     # via kubernetes
 werkzeug==3.1.9
     # via flask
-wrapt==2.5.0
+wrapt==2.5.1
     # via deprecated
 wtforms==3.2.2
     # via flask-inputs
