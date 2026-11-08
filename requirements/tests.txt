@@ -31,7 +31,7 @@ blinker==1.9.0
     #   sentry-sdk
 cachelib==0.17.0
     # via flask-session
-cachetools==7.2.8
+cachetools==8.0.0
     # via tox
 certifi==2026.10.23
     # via
@@ -42,11 +42,11 @@ cffi==2.1.1
     # via pynacl
 charset-normalizer==3.5.2
     # via requests
-click==8.5.0
+click==8.5.1
     # via flask
 colorama==0.4.6
     # via tox
-coverage[toml]==7.17.0
+coverage[toml]==7.17.2
     # via
     #   coverage-badge
     #   pytest-cov
@@ -60,7 +60,7 @@ distlib==0.4.4
     # via virtualenv
 durationpy==0.11
     # via kubernetes
-filelock==4.2.6
+filelock==4.2.9
     # via
     #   python-discovery
     #   tox
@@ -110,7 +110,7 @@ jsonschema==4.26.0
     # via -r requirements/app.in
 jsonschema-specifications==2025.9.1
     # via jsonschema
-kubernetes==37.0.1
+kubernetes==37.0.2
     # via -r requirements/app.in
 limits[redis]==5.8.0
     # via flask-limiter
@@ -128,7 +128,9 @@ multidict==7.2.1
     #   aiohttp
     #   yarl
 oauthlib==4.0.1
-    # via requests-oauthlib
+    # via
+    #   kubernetes
+    #   requests-oauthlib
 ordered-set==4.1.0
     # via flask-limiter
 packaging==26.3
@@ -140,7 +142,7 @@ packaging==26.3
     #   virtualenv
 pika==1.4.4
     # via -r requirements/app.in
-platformdirs==4.14.2
+platformdirs==4.14.5
     # via
     #   tox
     #   virtualenv
@@ -155,15 +157,15 @@ propcache==0.5.4
     #   yarl
 pycparser==3.12
     # via cffi
-pydantic==2.14.2
+pydantic==2.14.3
     # via kubernetes
-pydantic-core==2.50.2
+pydantic-core==2.50.4
     # via pydantic
 pygments==2.21.0
     # via pytest
 pynacl==1.6.2
     # via -r requirements/app.in
-pyproject-api==1.12.2
+pyproject-api==1.12.5
     # via tox
 pytest==9.2.0
     # via
@@ -173,7 +175,7 @@ pytest-cov==7.1.0
     # via -r requirements/tests.in
 python-dateutil==4.0.0
     # via kubernetes
-python-discovery==1.9.0
+python-discovery==1.9.5
     # via
     #   tox
     #   virtualenv
@@ -203,11 +205,11 @@ rpds-py==2026.9.1
     # via
     #   jsonschema
     #   referencing
-sentry-sdk[flask]==2.73.0
+sentry-sdk[flask]==2.74.0
     # via -r requirements/app.in
 tomli-w==1.2.0
     # via tox
-tox==4.67.5
+tox==4.67.13
     # via -r requirements/tests.in
 typing-extensions==4.16.0
     # via
@@ -221,7 +223,7 @@ typing-extensions==4.16.0
     #   referencing
     #   tox
     #   typing-inspection
-typing-inspection==0.4.4
+typing-inspection==0.4.5
     # via pydantic
 tzdata==2026.6
     # via python-dateutil
@@ -232,7 +234,7 @@ urllib3==2.8.0
     #   sentry-sdk
 uwsgi==2.0.31
     # via -r requirements/app.in
-virtualenv==21.15.2
+virtualenv==21.15.6
     # via tox
 websocket-client==1.9.2
     # via kubernetes
@@ -240,7 +242,7 @@ werkzeug==3.1.9
     # via flask
 wrapt==2.5.2
     # via deprecated
-wtforms==3.3.1
+wtforms==3.3.2
     # via flask-inputs
 yarl==1.25.1
     # via aiohttp
